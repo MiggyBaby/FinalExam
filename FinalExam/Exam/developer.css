@@ -1,0 +1,85 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+    background-image: url("login3.jpg");
+
+}
+
+header {
+    background-color: #333;
+    color: yellowgreen;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+/* Add a box around navigation links */
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 5px 10px;
+    border: 1px solid yellowgreen; /* Border around links */
+    border-radius: 5px; /* Rounded corners for the boxes */
+    transition: color 0.3s ease-in-out;
+    background-color: rgba(200, 200, 200, 0.7); /* Background color with opacity */
+}
+
+nav ul li a:hover {
+    color: #ff6b6b;
+    background-color: yellowgreen; /* Change background color on hover */
+    color: white;
+}
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+}
+
+h1 {
+    font-family: 'Dancing Script', cursive;
+    font-size: 48px;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    color: #ff6b6b; /* Artsy color for headings */
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #333;
+    color: white;
+}
+
+/* Add more custom styles and fonts as needed */
