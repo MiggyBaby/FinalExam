@@ -1,12 +1,44 @@
 // main.js
-function addToCart(productName, price) {
-    const item = { productName, price };
-
+function addToCart(productName, price, sizeId = null) {
     // Retrieve the existing cart items from local storage or initialize an empty array
     let cart = JSON.parse(localStorage.getItem('cart')) || [];
 
-    // Add the new item to the cart
-    cart.push(item);
+    if (sizeId !== null) {
+        // Size is provided, handle the case with size
+        // Retrieve the selected size
+        const size = document.querySelector(`#${sizeId}:checked`).value;
+
+        // Check if the item is already in the cart
+        const existingItemIndex = cart.findIndex((item) => item.productName === productName && item.size === size);
+
+        if (existingItemIndex !== -1) {
+            // Item already exists, update the quantity
+            cart[existingItemIndex].quantity += 1;
+        } else {
+            // Item doesn't exist in the cart, add it with size
+            cart.push({
+                productName,
+                price,
+                size,
+                quantity: 1,
+            });
+        }
+    } else {
+        // No size provided, handle the case without size
+        const existingItemIndex = cart.findIndex((item) => item.productName === productName);
+
+        if (existingItemIndex !== -1) {
+            // Item already exists, update the quantity
+            cart[existingItemIndex].quantity += 1;
+        } else {
+            // Item doesn't exist in the cart, add it without size
+            cart.push({
+                productName,
+                price,
+                quantity: 1,
+            });
+        }
+    }
 
     // Save the updated cart in local storage
     localStorage.setItem('cart', JSON.stringify(cart));
@@ -14,6 +46,15 @@ function addToCart(productName, price) {
     // Update the cart button to show the number of items in the cart
     updateCartButton();
 }
+    
+        // Save the cart in local storage
+        saveCartItems(cart);
+    
+        // Optional: You can update the cart display here
+        // ...
+    
+        // You may also update the total cost display
+        updateTotalCost(cart, totalCostDisplay);
 
 function updateCartButton() {
     const cartButton = document.querySelector('.cart-button');
@@ -101,6 +142,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
     }
 
+    
     
 });
 

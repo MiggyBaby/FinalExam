@@ -13,9 +13,9 @@ document.addEventListener('DOMContentLoaded', () => {
         const itemContainer = document.createElement("div");
         itemContainer.classList.add("cart-item");
 
-        // Create elements to display item details
+        // Create elements to display item details, including the selected size
         const itemName = document.createElement("span");
-        itemName.textContent = `${item.productName} - Price: ₱${item.price}`;
+        itemName.textContent = `${item.productName} - Size: ${item.size} - Price: ₱${item.price}`;
 
         const quantityDisplay = document.createElement("span");
         quantityDisplay.textContent = `Quantity: ${item.quantity}`;
@@ -95,6 +95,10 @@ function saveCartItems(cart) {
     localStorage.setItem('cart', JSON.stringify(cart));
 }
 
+// Your existing code for checkout and clearing the cart
+// ...
+
+
 document.addEventListener('DOMContentLoaded', () => {
     const cartItemsList = document.getElementById("cart-items");
     const totalCostDisplay = document.getElementById("total-cost");
@@ -117,7 +121,7 @@ document.addEventListener('DOMContentLoaded', () => {
             alert("Please enter a valid shipping address.");
         } else {
             // Proceed with the order, and you can record the address here
-            alert(`Thank you for your order! Your items will be shipped to: ${address}`);
+            alert(`Admin Submitted to: ${address}`);
             clearCart(); // You can implement this function to clear the cart
             
 
@@ -138,4 +142,7 @@ function clearCart() {
     // Implement this function to clear the cart
     // You can reset the cart array to an empty array and update the total cost display
 }
+
+
+
 

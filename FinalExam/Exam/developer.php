@@ -133,25 +133,20 @@
                     <summary><h3> George Miguel V. Batalan<h3></summary>
                     <p> Role: Front-end Developer<br>
                         Email: miggybatalan1@gmail.com<br>
-                    </p>
-                    <summary> Open to see developer</summary>
-                    <details>
-                        <img src="miggy.jpg" width="440px" height="400px">
-                    </details>
-                </li>
-                <li>
-                <summary> <h3>Georgino Therasus <h3> </summary>
-                    <p> Role: Back-end Developer<br>
+                        Social Media:<br>
+                        Instagram: @miggybinggy<br>
+                        Facebook: miggy batalan<br>
+                        Github: MiggyBaby<br>
+                        Twitter: @batalan_miggy<br>
+                        Tiktok: miggybatalan<br>
 
-                        Email: TO BE ANNOUNCE *SHY TYPE KASI*<br>
                     </p>
                     <summary> Open to see developer</summary>
                     <details>
-                        <img src="georgino.jpg" width="250px" height="250px">
+                        <img src="miggy1.jpg" width="440px" height="500px">
                     </details>
-                    
                 </li>
-                <!-- Add more developer information as needed -->
+                
             </ul>
         </section>
     </main>

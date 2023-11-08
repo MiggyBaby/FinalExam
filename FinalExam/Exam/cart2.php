@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cart Contents</title>
     <link rel="stylesheet" href="cart.css">
-    <script src="cart.js"></script>
+    <script src="cart2.js"></script>
     <style>
         /* Your CSS for the "View Cart" page can go here */
         body {
