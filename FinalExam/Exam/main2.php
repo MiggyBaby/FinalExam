@@ -196,7 +196,7 @@
         <input type="radio" name="size" value="Extra-Large" id="extra-large">
         <label for="extra-large">XL</label>
     </form>
-            <button onclick="addToCart('Camping Trials', 499, 'size-small-1')">Add to Cart</button>
+            <button onclick="addToCart('Camping Trials', 499)">Add to Cart</button>
         </li>
 
         <li class="product">
@@ -214,7 +214,7 @@
         <input type="radio" name="size" value="Extra-Large" id="extra-large">
         <label for="extra-large">XL</label>
     </form>
-            <button onclick="addToCart('Shifty Place', 499, 'size-small-1')">Add to Cart</button>
+            <button onclick="addToCart('Shifty Place', 499)">Add to Cart</button>
         </li>
 
         <li class="product">
@@ -232,7 +232,7 @@
         <input type="radio" name="size" value="Extra-Large" id="extra-large">
         <label for="extra-large">XL</label>
     </form>
-            <button onclick="addToCart('Mysterious', 499, 'size-small-1')">Add to Cart</button>
+            <button onclick="addToCart('Mysterious', 499)">Add to Cart</button>
         </li>
 
         <li class="product">
@@ -250,7 +250,7 @@
         <input type="radio" name="size" value="Extra-Large" id="extra-large">
         <label for="extra-large">XL</label>
     </form>
-            <button onclick="addToCart('Living The Undead', 499, 'size-small-1')">Add to Cart</button>
+            <button onclick="addToCart('Living The Undead', 499)">Add to Cart</button>
         </li>
 
         <li class="product">
@@ -268,7 +268,7 @@
         <input type="radio" name="size" value="Extra-Large" id="extra-large">
         <label for="extra-large">XL</label>
     </form>
-            <button onclick="addToCart('Skulled Titan', 399, 'size-small-1')">Add to Cart</button>
+            <button onclick="addToCart('Skulled Titan', 399)">Add to Cart</button>
         </li>
 
         <li class="product">
@@ -286,7 +286,7 @@
         <input type="radio" name="size" value="Extra-Large" id="extra-large">
         <label for="extra-large">XL</label>
     </form>
-            <button onclick="addToCart('Yakuza Dragon', 399, 'size-small-1')">Add to Cart</button>
+            <button onclick="addToCart('Yakuza Dragon', 399)">Add to Cart</button>
         </li>
 
         <li class="product">
@@ -304,7 +304,7 @@
         <input type="radio" name="size" value="Extra-Large" id="extra-large">
         <label for="extra-large">XL</label>
     </form>
-            <button onclick="addToCart('Messy Doodle', 499, 'size-small-1')">Add to Cart</button>
+            <button onclick="addToCart('Messy Doodle', 499)">Add to Cart</button>
         </li>
 
         <li class="product">
@@ -322,7 +322,7 @@
         <input type="radio" name="size" value="Extra-Large" id="extra-large">
         <label for="extra-large">XL</label>
     </form>
-            <button onclick="addToCart('Beauty In Colors', 399, 'size-small-1')">Add to Cart</button>
+            <button onclick="addToCart('Beauty In Colors', 399)">Add to Cart</button>
         </li>
 
         <li class="product">
@@ -340,7 +340,7 @@
         <input type="radio" name="size" value="Extra-Large" id="extra-large">
         <label for="extra-large">XL</label>
     </form>
-            <button onclick="addToCart('Space Tronaut', 599, 'size-small-1')">Add to Cart</button>
+            <button onclick="addToCart('Space Tronaut', 599)">Add to Cart</button>
         </li>
 
     </ul>

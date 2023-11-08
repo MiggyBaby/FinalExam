@@ -121,14 +121,14 @@ document.addEventListener('DOMContentLoaded', () => {
             alert("Please enter a valid shipping address.");
         } else {
             // Proceed with the order, and you can record the address here
-            alert(`Admin Submitted to: ${address}`);
+            alert(`Thank you for purchashing address will be sending to: ${address}`);
             clearCart(); // You can implement this function to clear the cart
             
 
             
             // Add a timer to redirect to the "thank you" page after 3 seconds
             setTimeout(() => {
-                window.location.href = "home2.php"; // Change the URL to the actual "thank you" page
+                window.location.href = "index.php"; // Change the URL to the actual "thank you" page
             }, 2000); // 2000 milliseconds (2 seconds)
         }
     });
