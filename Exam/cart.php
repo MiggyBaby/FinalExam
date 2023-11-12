@@ -1,13 +1,12 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<link rel = "shortcut icon" type = "image/png" href = "background4.png">
+<link rel="shortcut icon" type="image/png" href="background4.png">
     <title> Cart </title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cart Contents</title>
     <link rel="stylesheet" href="cart.css">
-    <script src="cart.js"></script>
     <style>
         /* Your CSS for the "View Cart" page can go here */
         body {
@@ -21,7 +20,7 @@
         header {
             background-color: #333;
             color: yellowgreen;
-            text-align: center;
+            text-align: center;     
             padding: 20px;
         }
 
@@ -62,8 +61,6 @@
         }
         
 
-        
-
         nav ul {
             list-style-type: none;
             padding: 0;
@@ -85,7 +82,6 @@
             transition: color 0.3s ease-in-out;
             background-color: #333; /* Background color with opacity */
         }
-
         nav ul li a:hover {
             color: #ff6b6b;
             background-color: yellowgreen;
@@ -189,6 +185,8 @@
     <div class="cart-container">
         <h2>Cart Items</h2>
         <ul id="cart-items">
+
+        
             <!-- Cart items will be displayed here -->
         </ul>
 
@@ -210,7 +208,7 @@
         <p>&copy; The Official StreetWise OverSize - 2023 -</p>
     </footer>
 
-<script>
+    <script>
         document.addEventListener('DOMContentLoaded', () => {
             const cartItemsList = document.getElementById("cart-items");
             const totalCostDisplay = document.getElementById("total-cost");
@@ -228,10 +226,26 @@
 
                 // Create elements to display item details, including the selected size
                 const itemName = document.createElement("span");
-                itemName.textContent = `${item.productName} - Size: ${item.size} - Price: ₱${item.price}`;
+                itemName.textContent = `${item.productName} - Price: ₱${item.price}`;
+
 
                 const quantityDisplay = document.createElement("span");
                 quantityDisplay.textContent = `Quantity: ${item.quantity}`;
+
+                // Create a dropdown for sizes
+const sizeDropdown = document.createElement("select");
+sizeDropdown.id = `size-${index}`;
+sizeDropdown.innerHTML = `
+    <option value="S">S</option>
+    <option value="M">M</option>
+    <option value="L">L</option>
+    <option value="XL">XL</option>
+`;
+sizeDropdown.addEventListener('change', (event) => {
+    // Update the size when the dropdown value changes
+    item.size = event.target.value;
+    saveCartItems(cart);
+});
 
                 // Create "Add" and "Subtract" buttons
                 const addButton = document.createElement("button");
@@ -275,6 +289,7 @@
 
                 // Append elements to the item container
                 itemContainer.appendChild(itemName);
+                itemContainer.appendChild(sizeDropdown);
                 itemContainer.appendChild(quantityDisplay);
                 itemContainer.appendChild(addButton);
                 itemContainer.appendChild(subtractButton);

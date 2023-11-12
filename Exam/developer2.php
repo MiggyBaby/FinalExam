@@ -104,9 +104,9 @@
     <nav>
         <ul>
             <li><a href="index.php">Home</a></li> <!-- HOME-->
-            <li><a href="main.php">Shop</a></li>  <!-- SHOP -->
-            <li><a href="developer.php">Developer</a></li> <!-- DEVELOPER-->
-            <li><a class="cart-button" href="cart.php">View Cart</a></li>
+            <li><a href="main2.php">Shop</a></li>  <!-- SHOP -->
+            <li><a href="developer2.php">Developer</a></li> <!-- DEVELOPER-->
+            <li><a class="cart-button" href="cart2.php">View Cart</a></li>
             <li> <a class="logout" href="header.php">Logout</a></li>
         </ul>
     </nav>

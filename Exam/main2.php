@@ -186,16 +186,6 @@
             <h2>Camping Trials</h2>
             <p>2 Kids Lost In a Creepy Forest.</p>
             <h3>Price:₱499</h3>
-            <form>
-        <input type="radio" name="size" value="Small" id="small" required>
-        <label for="small">S</label>
-        <input type="radio" name="size" value="Medium" id="medium">
-        <label for="medium">M</label>
-        <input type="radio" name="size" value="Large" id="large">
-        <label for="large">L</label>
-        <input type="radio" name="size" value="Extra-Large" id="extra-large">
-        <label for="extra-large">XL</label>
-    </form>
             <button onclick="addToCart('Camping Trials', 499)">Add to Cart</button>
         </li>
 
@@ -204,16 +194,6 @@
             <h2>Shifty Place</h2>
             <p>A Guy Lost in an Unknown Place.</p>
             <h3>Price: ₱499</h3>
-            <form>
-        <input type="radio" name="size" value="Small" id="small" required>
-        <label for="small">S</label>
-        <input type="radio" name="size" value="Medium" id="medium">
-        <label for="medium">M</label>
-        <input type="radio" name="size" value="Large" id="large">
-        <label for="large">L</label>
-        <input type="radio" name="size" value="Extra-Large" id="extra-large">
-        <label for="extra-large">XL</label>
-    </form>
             <button onclick="addToCart('Shifty Place', 499)">Add to Cart</button>
         </li>
 
@@ -222,16 +202,6 @@
             <h2>Mysterious</h2>
             <p> Stranded in a Mysterious Place</p>
             <h3>Price: ₱499</h3>
-            <form>
-        <input type="radio" name="size" value="Small" id="small" required>
-        <label for="small">S</label>
-        <input type="radio" name="size" value="Medium" id="medium">
-        <label for="medium">M</label>
-        <input type="radio" name="size" value="Large" id="large">
-        <label for="large">L</label>
-        <input type="radio" name="size" value="Extra-Large" id="extra-large">
-        <label for="extra-large">XL</label>
-    </form>
             <button onclick="addToCart('Mysterious', 499)">Add to Cart</button>
         </li>
 
@@ -240,16 +210,6 @@
             <h2>Living The Undead</h2>
             <p> A Witty Name for a T-Shirt</p>
             <h3>Price: ₱499</h3>
-            <form>
-        <input type="radio" name="size" value="Small" id="small" required>
-        <label for="small">S</label>
-        <input type="radio" name="size" value="Medium" id="medium">
-        <label for="medium">M</label>
-        <input type="radio" name="size" value="Large" id="large">
-        <label for="large">L</label>
-        <input type="radio" name="size" value="Extra-Large" id="extra-large">
-        <label for="extra-large">XL</label>
-    </form>
             <button onclick="addToCart('Living The Undead', 499)">Add to Cart</button>
         </li>
 
@@ -258,16 +218,6 @@
             <h2>Skulled Titan</h2>
             <p>A Combination of A Titan and a Skull</p>
             <h3>Price: ₱399</h3>
-            <form>
-        <input type="radio" name="size" value="Small" id="small" required>
-        <label for="small">S</label>
-        <input type="radio" name="size" value="Medium" id="medium">
-        <label for="medium">M</label>
-        <input type="radio" name="size" value="Large" id="large">
-        <label for="large">L</label>
-        <input type="radio" name="size" value="Extra-Large" id="extra-large">
-        <label for="extra-large">XL</label>
-    </form>
             <button onclick="addToCart('Skulled Titan', 399)">Add to Cart</button>
         </li>
 
@@ -276,16 +226,6 @@
             <h2>Yakuza Dragon</h2>
             <p>Yakuza and a Dragon as One.</p>
             <h3>Price: ₱399</h3>
-            <form>
-        <input type="radio" name="size" value="Small" id="small" required>
-        <label for="small">S</label>
-        <input type="radio" name="size" value="Medium" id="medium">
-        <label for="medium">M</label>
-        <input type="radio" name="size" value="Large" id="large">
-        <label for="large">L</label>
-        <input type="radio" name="size" value="Extra-Large" id="extra-large">
-        <label for="extra-large">XL</label>
-    </form>
             <button onclick="addToCart('Yakuza Dragon', 399)">Add to Cart</button>
         </li>
 
@@ -294,16 +234,6 @@
             <h2>Messy Doodle</h2>
             <p>Tangled All Over The Place.</p>
             <h3>Price: ₱499</h3>
-            <form>
-        <input type="radio" name="size" value="Small" id="small" required>
-        <label for="small">S</label>
-        <input type="radio" name="size" value="Medium" id="medium">
-        <label for="medium">M</label>
-        <input type="radio" name="size" value="Large" id="large">
-        <label for="large">L</label>
-        <input type="radio" name="size" value="Extra-Large" id="extra-large">
-        <label for="extra-large">XL</label>
-    </form>
             <button onclick="addToCart('Messy Doodle', 499)">Add to Cart</button>
         </li>
 
@@ -312,16 +242,7 @@
             <h2>Beauty In Colors</h2>
             <p>Let Them Know Who You Are.</p>
             <h3>Price: ₱399</h3>
-            <form>
-        <input type="radio" name="size" value="Small" id="small" required>
-        <label for="small">S</label>
-        <input type="radio" name="size" value="Medium" id="medium">
-        <label for="medium">M</label>
-        <input type="radio" name="size" value="Large" id="large">
-        <label for="large">L</label>
-        <input type="radio" name="size" value="Extra-Large" id="extra-large">
-        <label for="extra-large">XL</label>
-    </form>
+
             <button onclick="addToCart('Beauty In Colors', 399)">Add to Cart</button>
         </li>
 
@@ -330,20 +251,10 @@
             <h2>SpaceTronaut</h2>
             <p>Austronaut in Space.</p>
             <h3>Price: ₱599</h3>
-            <form>
-        <input type="radio" name="size" value="Small" id="small" required>
-        <label for="small">S</label>
-        <input type="radio" name="size" value="Medium" id="medium">
-        <label for="medium">M</label>
-        <input type="radio" name="size" value="Large" id="large">
-        <label for="large">L</label>
-        <input type="radio" name="size" value="Extra-Large" id="extra-large">
-        <label for="extra-large">XL</label>
-    </form>
             <button onclick="addToCart('Space Tronaut', 599)">Add to Cart</button>
         </li>
 
-    </ul>
+    </ul>   
 
     <li class="product">
         <button class="newItem" onclick="showNewItemForm()">Add an Item +</button>
@@ -379,5 +290,158 @@
     <footer>
         <p>&copy; The Official StreetWise OverSize - 2023 -</p>
     </footer>
+
+    <script>
+    // main.js
+function addToCart(productName, price, sizeId = null) {
+    // Retrieve the existing cart items from local storage or initialize an empty array
+    let cart = JSON.parse(localStorage.getItem('cart')) || [];
+
+    if (sizeId !== null) {
+        // Size is provided, handle the case with size
+        // Retrieve the selected size
+        const size = document.querySelector(`#${sizeId}:checked`).value;
+
+        // Check if the item is already in the cart
+        const existingItemIndex = cart.findIndex((item) => item.productName === productName && item.size === size);
+
+        if (existingItemIndex !== -1) {
+            // Item already exists, update the quantity
+            cart[existingItemIndex].quantity += 1;
+        } else {
+            // Item doesn't exist in the cart, add it with size
+            cart.push({
+                productName,
+                price,
+                size,
+                quantity: 1,
+            });
+        }
+    } else {
+        // No size provided, handle the case without size
+        const existingItemIndex = cart.findIndex((item) => item.productName === productName);
+
+        if (existingItemIndex !== -1) {
+            // Item already exists, update the quantity
+            cart[existingItemIndex].quantity += 1;
+        } else {
+            // Item doesn't exist in the cart, add it without size
+            cart.push({
+                productName,
+                price,
+                quantity: 1,
+            });
+        }
+    }
+
+    // Save the updated cart in local storage
+    localStorage.setItem('cart', JSON.stringify(cart));
+
+    // Update the cart button to show the number of items in the cart
+    updateCartButton();
+}
+    
+        // Save the cart in local storage
+        saveCartItems(cart);
+    
+        // Optional: You can update the cart display here
+        // ...
+    
+        // You may also update the total cost display
+        updateTotalCost(cart, totalCostDisplay);
+
+function updateCartButton() {
+    const cartButton = document.querySelector('.cart-button');
+    const cart = JSON.parse(localStorage.getItem('cart')) || [];
+    cartButton.textContent = `View Cart (${cart.length})`;
+}
+
+function showNewItemForm() {
+    const newItemForm = document.getElementById("new-item-form");
+    newItemForm.style.display = "block";
+}
+
+function addNewItem() {
+    const productNameInput = document.getElementById("product-name");
+    const productPriceInput = document.getElementById("product-price");
+    const productName = productNameInput.value;
+    const productPrice = parseFloat(productPriceInput.value);
+
+    if (productName && !isNaN(productPrice)) {
+        addToCart(productName, productPrice);
+        hideNewItemForm();
+    }
+}
+
+function hideNewItemForm() {
+    const newItemForm = document.getElementById("new-item-form");
+    newItemForm.style.display = "none";
+    clearNewItemFormInputs();
+}
+
+function clearNewItemFormInputs() {
+    document.getElementById("product-name").value = "";
+    document.getElementById("product-price").value = "";
+}
+
+document.addEventListener('DOMContentLoaded', () => {
+    // ...
+
+    // Create a function to update the placeholder
+    function updatePlaceholder() {
+        const placeholder = document.getElementById("placeholder");
+        const emptySlot = cart.length === 0;
+
+        if (emptySlot) {
+            placeholder.style.display = "block";
+        } else {
+            placeholder.style.display = "none";
+        }
+    }
+
+    // ...
+
+    function addNewItem() {
+        const productNameInput = document.getElementById("product-name");
+        const productPriceInput = document.getElementById("product-price");
+        const productName = productNameInput.value;
+        const productPrice = parseFloat(productPriceInput.value);
+
+        if (productName && !isNaN(productPrice)) {
+            addToCart(productName, productPrice);
+            hideNewItemForm();
+            updatePlaceholder(); // Update the placeholder when an item is added
+        }
+    }
+
+    // ...
+
+    // Ensure the placeholder is updated when the page loads
+    updatePlaceholder();
+    function addToCart(productName, price) {
+        const item = { productName, price };
+        
+        const selectedSize = document.querySelector('input[name="size"]:checked');
+        
+        if (selectedSize) {
+            const size = selectedSize.value;
+            
+            // Create a query string with the product details
+            const query = `product=${productName}&price=${price}&size=${size}`;
+            
+            // Redirect to the cart2.php page with the query string
+            window.location.href = `cart2.php?${query}`;
+        } else {
+            alert("Please select a size.");
+        }
+    }
+
+    
+    
+});
+
+
+
+</script>
 </body>
 </html>

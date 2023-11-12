@@ -35,7 +35,7 @@ if ($conn->connect_error) {
         header {
             background-color: #333;
             color: yellowgreen;
-            text-align: center;
+            text-align: center;     
             padding: 20px;
         }
 
@@ -200,6 +200,8 @@ if ($conn->connect_error) {
     <div class="cart-container">
         <h2>Cart Items</h2>
         <ul id="cart-items">
+
+        
             <!-- Cart items will be displayed here -->
         </ul>
 
@@ -239,10 +241,26 @@ if ($conn->connect_error) {
 
                 // Create elements to display item details, including the selected size
                 const itemName = document.createElement("span");
-                itemName.textContent = `${item.productName} - Size: ${item.size} - Price: ₱${item.price}`;
+                itemName.textContent = `${item.productName} - Price: ₱${item.price}`;
+
 
                 const quantityDisplay = document.createElement("span");
                 quantityDisplay.textContent = `Quantity: ${item.quantity}`;
+
+                // Create a dropdown for sizes
+const sizeDropdown = document.createElement("select");
+sizeDropdown.id = `size-${index}`;
+sizeDropdown.innerHTML = `
+    <option value="S">S</option>
+    <option value="M">M</option>
+    <option value="L">L</option>
+    <option value="XL">XL</option>
+`;
+sizeDropdown.addEventListener('change', (event) => {
+    // Update the size when the dropdown value changes
+    item.size = event.target.value;
+    saveCartItems(cart);
+});
 
                 // Create "Add" and "Subtract" buttons
                 const addButton = document.createElement("button");
@@ -286,6 +304,7 @@ if ($conn->connect_error) {
 
                 // Append elements to the item container
                 itemContainer.appendChild(itemName);
+                itemContainer.appendChild(sizeDropdown);
                 itemContainer.appendChild(quantityDisplay);
                 itemContainer.appendChild(addButton);
                 itemContainer.appendChild(subtractButton);

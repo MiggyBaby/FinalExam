@@ -149,7 +149,7 @@
     </header>
 
     <nav>
-        <ul>
+    <ul>
             <li><a href="index.php">Home</a></li> <!-- HOME-->
             <li><a href="main.php">Shop</a></li>  <!-- SHOP -->
             <li><a href="developer.php">Developer</a></li> <!-- DEVELOPER-->
@@ -164,16 +164,6 @@
             <h2>Camping Trials</h2>
             <p>2 Kids Lost In a Creepy Forest.</p>
             <h3>Price:₱499</h3>
-            <form>
-        <input type="radio" name="size" value="Small" id="small" required>
-        <label for="small">S</label>
-        <input type="radio" name="size" value="Medium" id="medium">
-        <label for="medium">M</label>
-        <input type="radio" name="size" value="Large" id="large">
-        <label for="large">L</label>
-        <input type="radio" name="size" value="Extra-Large" id="extra-large">
-        <label for="extra-large">XL</label>
-    </form>
             <button onclick="addToCart('Camping Trials', 499)">Add to Cart</button>
         </li>
 
@@ -182,16 +172,6 @@
             <h2>Shifty Place</h2>
             <p>A Guy Lost in an Unknown Place.</p>
             <h3>Price: ₱499</h3>
-            <form>
-        <input type="radio" name="size" value="Small" id="small" required>
-        <label for="small">S</label>
-        <input type="radio" name="size" value="Medium" id="medium">
-        <label for="medium">M</label>
-        <input type="radio" name="size" value="Large" id="large">
-        <label for="large">L</label>
-        <input type="radio" name="size" value="Extra-Large" id="extra-large">
-        <label for="extra-large">XL</label>
-    </form>
             <button onclick="addToCart('Shifty Place', 499)">Add to Cart</button>
         </li>
 
@@ -200,17 +180,6 @@
             <h2>Mysterious</h2>
             <p> Stranded in a Mysterious Place</p>
             <h3>Price: ₱499</h3>
-            <form>
-        <input type="radio" name="size" value="Small" id="small" required>
-        <label for="small">S</label>
-        <input type="radio" name="size" value="Medium" id="medium">
-        <label for="medium">M</label>
-        <input type="radio" name="size" value="Large" id="large">
-        <label for="large">L</label>
-        <input type="radio" name="size" value="Extra-Large" id="extra-large">
-        <label for="extra-large">XL</label>
-    </form>
-            
             <button onclick="addToCart('Mysterious', 499)">Add to Cart</button>
         </li>
 
@@ -219,16 +188,6 @@
             <h2>Living The Undead</h2>
             <p> A Witty Name for a T-Shirt</p>
             <h3>Price: ₱499</h3>
-            <form>
-        <input type="radio" name="size" value="Small" id="small" required>
-        <label for="small">S</label>
-        <input type="radio" name="size" value="Medium" id="medium">
-        <label for="medium">M</label>
-        <input type="radio" name="size" value="Large" id="large">
-        <label for="large">L</label>
-        <input type="radio" name="size" value="Extra-Large" id="extra-large">
-        <label for="extra-large">XL</label>
-    </form>
             <button onclick="addToCart('Living The Undead', 499)">Add to Cart</button>
         </li>
 
@@ -237,16 +196,6 @@
             <h2>Skulled Titan</h2>
             <p>A Combination of A Titan and a Skull</p>
             <h3>Price: ₱399</h3>
-            <form>
-        <input type="radio" name="size" value="Small" id="small" required>
-        <label for="small">S</label>
-        <input type="radio" name="size" value="Medium" id="medium">
-        <label for="medium">M</label>
-        <input type="radio" name="size" value="Large" id="large">
-        <label for="large">L</label>
-        <input type="radio" name="size" value="Extra-Large" id="extra-large">
-        <label for="extra-large">XL</label>
-    </form>
             <button onclick="addToCart('Skulled Titan', 399)">Add to Cart</button>
         </li>
 
@@ -255,16 +204,6 @@
             <h2>Yakuza Dragon</h2>
             <p>Yakuza and a Dragon as One.</p>
             <h3>Price: ₱399</h3>
-            <form>
-        <input type="radio" name="size" value="Small" id="small" required>
-        <label for="small">S</label>
-        <input type="radio" name="size" value="Medium" id="medium">
-        <label for="medium">M</label>
-        <input type="radio" name="size" value="Large" id="large">
-        <label for="large">L</label>
-        <input type="radio" name="size" value="Extra-Large" id="extra-large">
-        <label for="extra-large">XL</label>
-    </form>
             <button onclick="addToCart('Yakuza Dragon', 399)">Add to Cart</button>
         </li>
 
@@ -273,16 +212,6 @@
             <h2>Messy Doodle</h2>
             <p>Tangled All Over The Place.</p>
             <h3>Price: ₱499</h3>
-            <form>
-        <input type="radio" name="size" value="Small" id="small" required>
-        <label for="small">S</label>
-        <input type="radio" name="size" value="Medium" id="medium">
-        <label for="medium">M</label>
-        <input type="radio" name="size" value="Large" id="large">
-        <label for="large">L</label>
-        <input type="radio" name="size" value="Extra-Large" id="extra-large">
-        <label for="extra-large">XL</label>
-    </form>
             <button onclick="addToCart('Messy Doodle', 499)">Add to Cart</button>
         </li>
 
@@ -291,16 +220,7 @@
             <h2>Beauty In Colors</h2>
             <p>Let Them Know Who You Are.</p>
             <h3>Price: ₱399</h3>
-            <form>
-        <input type="radio" name="size" value="Small" id="small" required>
-        <label for="small">S</label>
-        <input type="radio" name="size" value="Medium" id="medium">
-        <label for="medium">M</label>
-        <input type="radio" name="size" value="Large" id="large">
-        <label for="large">L</label>
-        <input type="radio" name="size" value="Extra-Large" id="extra-large">
-        <label for="extra-large">XL</label>
-    </form>
+
             <button onclick="addToCart('Beauty In Colors', 399)">Add to Cart</button>
         </li>
 
@@ -309,19 +229,10 @@
             <h2>SpaceTronaut</h2>
             <p>Austronaut in Space.</p>
             <h3>Price: ₱599</h3>
-            <form>
-        <input type="radio" name="size" value="Small" id="small" required>
-        <label for="small">S</label>
-        <input type="radio" name="size" value="Medium" id="medium">
-        <label for="medium">M</label>
-        <input type="radio" name="size" value="Large" id="large">
-        <label for="large">L</label>
-        <input type="radio" name="size" value="Extra-Large" id="extra-large">
-        <label for="extra-large">XL</label>
-    </form>
             <button onclick="addToCart('Space Tronaut', 599)">Add to Cart</button>
         </li>
 
+    
     </ul>
 
 
